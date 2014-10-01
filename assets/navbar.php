@@ -25,10 +25,10 @@
 <nav id="block-b4u53d9382752501" class="block block-type-navigation block-fluid-height" data-alias="gallery menu" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
 <div class="block-content">
 <div class="nav-horizontal nav-align-center"><ul id="menu-photoshelter-category-menu" class="menu selectnav-active">
-<li id="menu-item-11624" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Home</a></li>
-<li id="menu-item-11625" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about">About</a></li>
-<li id="menu-item-11626" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="blog">Blog</a></li>
-<li id="menu-item-11627" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="Contact">Contact</a></li></div><!-- .block-content -->
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.php">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="blog">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.php">Contact</a></li></div><!-- .block-content -->
 
 </nav><!-- #block-b4u53d9382752501 -->
 

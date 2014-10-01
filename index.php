@@ -34,6 +34,8 @@
 
 			</section><!-- .column -->
 		</div>
+
+	<div class="designed">Designed by <a href="http://luke.sx" target="_blank">Luke Brown</a></div>
 		<div class="col-md-10">
 			<iframe src="templates/gallery-with-deeplinking/index.html" style="margin-left:-50px;width:130%;height:600px;">
 		</div>
