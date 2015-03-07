@@ -1,0 +1,55 @@
+<?php include './assets/header.php'; ?>
+<?php include './assets/navbar.php'; ?>
+<div class="container" style="margin-top:0px;">
+	<div class="row">
+<?php
+// Define your username and password
+$username = "Gillian";
+$password = "pass123";
+
+if ($_POST['txtUsername'] != $username || $_POST['txtPassword'] != $password) {
+
+?>
+
+<div id="smallheader" class="mapold">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<h1 class="txts">Admin Login</h1>
+			<div>
+		</div><!--ROW-->
+	</div><!--CONTAINER-->
+</div><!--HEADER-->
+
+<div id="second">
+	<div class="container contact-stuff">
+		<div class="col-md-12 app">
+			
+			<form name="form" class="basic-grey form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
+				<label class="col-md-6 form" for="first_name">
+					<input type="text" placeholder="Enter your Username" name="txtUsername" value="Gillian" />
+				</label>
+
+				<label class="col-md-6 form" for="first_name">
+					<input type="password" placeholder="Enter your password" name="txtPassword" />
+				</label>
+
+				<label>
+					<input type="submit" class="button" name="Submit" value="Login" />
+				</label>
+
+			</form>
+
+
+
+<?php } else {  include './PROTECTED/control.php';  } ?>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+			</div>
+		</div>
+	</div>

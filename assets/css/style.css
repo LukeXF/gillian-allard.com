@@ -22,6 +22,12 @@ body {
 	min-height: 160px;
 }
 
+*, *:hover {
+	    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    
+}
 .navbar .nav > li > a {
 float: none;
 padding: 9px 15px 9px;
@@ -233,6 +239,7 @@ div.wrapper-no-blocks div.entry-content {
 text-align:center;
 margin:40px 0!important;
 }
+
 
 .block-type-header a.banner-image {
 display:block;
@@ -2549,4 +2556,8 @@ span.txt {
 }
 input.button {
 	margin-left: 8px;
+}
+
+.block-type-navigation .nav-align-center ul {
+text-align: left !important;
 }

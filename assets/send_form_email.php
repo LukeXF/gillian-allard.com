@@ -1,14 +1,13 @@
 <?php
- 
 if(isset($_POST['email'])) {
  
      
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "me@luke.sx , info@chromahills.com";
+    $email_to = "photo@gillian-allard.com";
  
-    $email_subject = "A messages from Syclone Studios Website";
+    $email_subject = "A messages from Gillian Allard Website";
  
      
  
@@ -98,7 +97,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $email_message = "Contact form for Syclone Studios has been filled out and sent to your inbox. The message is as follows:\n\n";
+    $email_message = "Contact form for Gillian Allard has been filled out and sent to your inbox. The message is as follows:\n\n";
  
      
  
@@ -112,7 +111,7 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "<strong>First Name:</strong> ".clean_string($first_name)."\n";
+    $email_message .= "First Name: ".clean_string($first_name)."\n";
  
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
  
@@ -142,16 +141,12 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
- 
- 
-Thank you for contacting us. We will be in touch with you very soon.
- 
- 
+<h2 class='txts'>Your form was sent</h2>
  
 <?php
  
 }
+ header( 'Location: http://gillian-allard.com/contact.php?success' )
  
 ?>
 
-<meta http-equiv="REFRESH" content="0;url= edit.php?variable=<?php if($_GET['variable']){ $variable = $_GET['variable']; } echo$variable ?> &action=updated ">

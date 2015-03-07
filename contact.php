@@ -24,7 +24,7 @@
 			<div class="col-md-12 app">
 				
 				<form method="post" name="contactform" action="assets/send_form_email.php" class="basic-grey form">
-					<span class="txts">Interested in using our services? Need support or sales advice? Contact us below!</span><br><br>
+					<span class="txts">Interested in contacting me? Messge me here and I will get back to you shortly.</span><br><br>
 					<label class="col-md-6 form" for="first_name">
 						<input id="name" type="text" name="first_name" placeholder="Your Full Name" />
 					</label>
@@ -58,6 +58,7 @@
 
  
 			</div>
+					<span align="center" class="txts">Contact me at <a href="tel:+447780675449">+44 7780 675449</a></span>
 		</div>
 
 		<div class="row">
@@ -67,4 +68,5 @@
 	</div>
 
 
+	<div class="designed designed-left">&copy; <?php echo date('Y'); ?></div>
 	<div class="designed">Designed by <a href="http://luke.sx" target="_blank">Luke Brown</a></div>
